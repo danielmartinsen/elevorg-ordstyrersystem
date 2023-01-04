@@ -1,0 +1,43 @@
+.tableHeader {
+  background-color: #292929;
+
+  th {
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
+
+.tableBody {
+  span {
+    font-size: 22px;
+    margin: 0px 8px;
+    color: #292929;
+
+    &:hover {
+      color: #292929;
+      cursor: pointer;
+    }
+  }
+
+  a {
+    color: #292929;
+  }
+}
+
+.button {
+  margin-right: 15px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid #292929;
+  border-radius: 4px;
+
+  background-color: transparent;
+  color: #292929;
+  font-size: 14px;
+
+  &:hover {
+    background-color: #292929;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}

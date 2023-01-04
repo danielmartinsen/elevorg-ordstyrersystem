@@ -1,0 +1,34 @@
+.import {
+  width: 100%;
+
+  aside {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  button {
+    border-radius: 0;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    border: 0;
+    background-color: #85a2b7;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f5f3ee;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+.div {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc;
+  height: 45px;
+  line-height: 2.5;
+  padding-left: 15px;
+  width: 60%;
+}

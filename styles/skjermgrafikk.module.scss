@@ -1,0 +1,81 @@
+.main {
+  padding: 20px 50px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.beskjedDiv {
+  width: 100%;
+  margin-top: 75px;
+  padding: 20px 30px;
+  border-left: 20px solid #ffffff;
+
+  background-color: #0370bd;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.talerDiv {
+  width: 100%;
+  display: flex;
+
+  background-color: #0370bd;
+  color: #f5f3ee;
+  font-size: 40px;
+
+  p {
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+.talelisteDiv {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+
+  background-color: #f5f3ee;
+  color: #3d3d3d;
+  font-size: 25px;
+  font-weight: 400;
+
+  p {
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+.saksopplysningDiv {
+  width: 100%;
+  display: flex;
+
+  background-color: #0a466e;
+  color: #73ffd7;
+  font-size: 40px;
+  font-weight: 500;
+
+  p {
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+.sakstittel {
+  padding: 20px 20px;
+  position: absolute;
+  min-width: 250px;
+  top: 30px;
+
+  margin: 20px 50px;
+
+  background-color: #0370bd;
+  color: #f5f3ee;
+  font-size: 30px;
+  font-weight: 700;
+  p {
+    margin: 0;
+    line-height: 1;
+  }
+}
